@@ -18,9 +18,10 @@ public class LoopsMain4 {
             for (int i = 1; i <= powNumber; i++) {
                 result = result * number;
             }
-            System.out.println("Возведение в степень: " + result);
-
-        } else {
+            System.out.print(number + " ^ " + powNumber);
+            System.out.println(" = " + result);
+        }
+        else {
             System.out.print("Введите положительную степень!");
         }
     }

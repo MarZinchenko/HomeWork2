@@ -9,15 +9,18 @@ public class LoopsMain1 {
 
         Scanner in = new Scanner(System.in);
         System.out.print("Введите число: ");
-        int result = in.nextInt();
-        System.out.println("Ответ: " + factorial(result));
-
-    }
-
-    public static int factorial(int x) {
+        int x = in.nextInt();
         int result = 1;
-        for (int i = 1; i <= x; ++i)
+
+        for (int i = 1; i <= x; i++) {
             result *= i;
-        return result;
+                if (i < x) {
+                    System.out.print(i + " * ");
+                    continue;
+                }
+                System.out.print(i);
+            }
+        System.out.print(" = ");
+        System.out.print(result);
     }
 }

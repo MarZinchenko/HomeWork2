@@ -9,13 +9,15 @@ public class LoopsMain3 {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите число: ");
         int n = in.nextInt();
-        int a = 0;
+        int a;
         int b = 1;
 
-        while(n != 0){
+        while (n != 0) {
             a = (n % 10);
-            b = b * a;
-            n/=10;
+            b = a * b;
+            n /= 10;
+            System.out.print(a + " * ");
         }
+        System.out.print(" = " + b);
     }
 }
