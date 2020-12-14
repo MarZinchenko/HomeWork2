@@ -1,15 +1,22 @@
 //1.5
 
-package HomeWork2.loops;
+package homeWork2.loops;
 
 public class LoopsMain5 {
     public static void main(String[] args) {
 
-        for (int i = 2; i <= 10; i++) {
-            for (int j = 1; j <= 10; j++) {
-                System.out.print(i + " x " + j + " = " + (i * j) + "\n");
+        printRow(2, 5);
+        System.out.println();
+        printRow(6, 9);
+    }
+
+    public static void printRow(int from, int to) {
+
+        for (int i = 1; i <= 10; i++) {
+            for (int j = from; j <= to; j++) {
+                System.out.print(j + " x " + i + " = " + (i * j) + "\t");
             }
-                System.out.println();
-            }
+            System.out.print("\n");
         }
     }
+}

@@ -1,5 +1,5 @@
 //1.2
-package HomeWork2.loops;
+package homeWork2.loops;
 
 import java.util.Scanner;
 

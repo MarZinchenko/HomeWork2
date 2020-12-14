@@ -1,6 +1,6 @@
 //1.3
 
-package HomeWork2.loops;
+package homeWork2.loops;
 
 import java.util.Scanner;
 
@@ -14,9 +14,14 @@ public class LoopsMain4 {
         int powNumber = in.nextInt();
         double result = 1;
 
-        for (int i = 1; i <= powNumber; i++) {
-            result = result * number;
+        if (powNumber >= 0) {
+            for (int i = 1; i <= powNumber; i++) {
+                result = result * number;
+            }
+            System.out.println("Возведение в степень: " + result);
+
+        } else {
+            System.out.print("Введите положительную степень!");
         }
-        System.out.println("Возведение в степень: " + result);
     }
 }

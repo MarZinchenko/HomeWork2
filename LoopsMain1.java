@@ -1,6 +1,6 @@
 // 1.1.1 Используя только цикл
 
-package HomeWork2.loops;
+package homeWork2.loops;
 
 import java.util.Scanner;
 
