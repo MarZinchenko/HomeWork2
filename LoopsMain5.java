@@ -1,6 +1,6 @@
 //1.5
 
-package homeWork2.loops;
+package homework2.loops;
 
 public class LoopsMain5 {
     public static void main(String[] args) {

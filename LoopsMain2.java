@@ -1,6 +1,6 @@
 // 1.1.2 Используя рекурсию
 
-package homeWork2.loops;
+package homework2.loops;
 
 import java.util.Scanner;
 
